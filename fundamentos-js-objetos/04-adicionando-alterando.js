@@ -36,3 +36,25 @@ console.log(cliente)
 //     email: 'kikoOrei@idog.com',
 //     telefone: '31 7777 7777'
 // }
+
+cliente['id'] = 1221
+console.log(cliente)
+// {
+//     nome: 'Kiko',
+//     idade: 22,
+//     cpf: '221222211',
+//     email: 'kikoOrei@idog.com',
+//     telefone: '31 7777 7777',
+//     id: 1221
+//   }
+
+cliente['id'] = 9932221
+console.log(cliente)
+// {
+//   nome: 'Kiko',
+//   idade: 22,
+//   cpf: '221222211',
+//   email: 'kikoOrei@idog.com',
+//   telefone: '31 7777 7777',
+//   id: 9932221
+// }
