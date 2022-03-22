@@ -19,6 +19,7 @@ Chave: idade - Valor: 36
 Chave: cpf - Valor: 1233321123
 Chave: email - Valor: ANDRE@EMAIL.COM
 */
+ 
 
 // Forma alternativa
 const exibeElementosFormatados = elementoArray => console.log(`Chave: ${elementoArray} | Valor: ${cliente[elementoArray]}`)
