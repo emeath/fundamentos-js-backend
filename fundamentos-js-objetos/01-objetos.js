@@ -14,5 +14,5 @@ const objetoClienteNutricao = {
 }
 
 // Mais clean, organizado e estrutuado na minha opiniao
-objetoClienteNutricao['nome'] // 'Matheus'
-objetoClienteNutricao['idade'] // 50
+objetoClienteNutricao.nome // 'Matheus'
+objetoClienteNutricao.idade // 50
