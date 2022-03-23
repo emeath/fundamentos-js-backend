@@ -9,7 +9,7 @@ const chaves = ['nome', 'idade', 'cpf', 'email']
 const chave = 'nome'
 console.log(cliente[chaves[0]]) // acessa atributo nome -- output Andre
 console.log(cliente[chave]) // Andre
-//console.log(cliente.chave) // ERRO! pois não existe este atributo no objeto declarato acima
+//console.log(cliente.chave) // ERRO! => retorna undefine pois não existe este atributo no objeto declarato acima
 
 //Acessando todos os elementos de forma enxuta
 chaves.forEach(elemento => console.log(`Chave: ${elemento} - Valor: ${cliente[elemento]}`))
